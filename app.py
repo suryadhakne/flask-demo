@@ -13,7 +13,7 @@ def healthz():
     """
     return jsonify({
         'status': 'healthy',
-        'message': 'Service is running'
+        'message': 'Application is running and healthy'
     }), 200
 
 
